@@ -52,7 +52,6 @@
 - 集成显卡『开启』（而非自动）
 - 其它默认 
 
-
 ## 关于集成显卡iGPU UHD630
 
 本方案中使用iGPU为计算加速，不用作画面输出。如果需要将集成显卡用作显示输出的修改 `config.plist`的iGPU配置为（未验证）：
@@ -145,16 +144,25 @@
 </dict>
 ```
 
-
 ## USB定制方案
 
 外部IO面板接口全部开启，主板内部只启用了HS10（用于连接蓝牙USB线，9pin公对20pin母的USB转接线输出的就是HS10端口）。
 
-![USB定制示意图](./docs/Z490i.png)
+![USB定制示意图](./docs/Z490I.png)
 
 9pin公对20pin母的USB转接
 ![9pin公对20pin母的USB转接](./docs/USB.png)
 
+## 蓝牙流畅度改善方法
+
+- 2.4G WIFI网络频段与蓝牙存在信号冲突，条件允许的可以关掉路由2.4G信号频段
+  - 关掉WIFI可以验证这个问题
+- 在设置—网络—左下角设置—设定服务排序—将蓝牙拖至第一个
+- 提升蓝牙默认比特率，执行以下几条命令
+  - `defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 35`
+  - `defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool Min (editable)" 53`
+  - `defaults write com.apple.BluetoothAudioAgent "Apple Initial Bitpool (editable)" 35`
+- 内置天线的，尽量将两条天线分开一些
 
 ## 相关链接
 
