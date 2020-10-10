@@ -166,7 +166,7 @@
 
 ## 相关链接
 
-- [Hackintosh-i7-10700K-Gigabyte-z490i-RX-5700-XT-Catalina-10.15.6](https://github.com/itendtostare/Hackintosh-i7-10700K-Gigabyte-z490i-RX-5700-XT-Catalina-10.15.6)
+- [Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D](https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D)
 - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 - [OpenCore Configurator](https://mackie100projects.altervista.org/)
 - [Hackintool](https://github.com/headkaze/Hackintool)
