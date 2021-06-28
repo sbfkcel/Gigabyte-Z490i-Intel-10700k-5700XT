@@ -144,9 +144,9 @@
 </dict>
 ```
 
----
+IGPU加速生效运行效率图。
 
-![IGPU加速](./docs/IGPU accelerate.png)
+![IGPU加速](./docs/IGPU_accelerate.png)
 
 ## USB定制方案
 
