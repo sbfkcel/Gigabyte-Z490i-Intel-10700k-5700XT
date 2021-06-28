@@ -144,7 +144,9 @@
 </dict>
 ```
 
-![IGPU加速]("./docs/IGPU accelerate.png")
+---
+
+![IGPU加速](./docs/IGPU accelerate.png)
 
 ## USB定制方案
 
