@@ -54,7 +54,7 @@
 
 ## 关于集成显卡iGPU UHD630
 
-本方案中使用iGPU为计算加速，不用作画面输出。如果需要将集成显卡用作显示输出的修改 `config.plist`的iGPU配置为（未验证）：
+本方案中使用iGPU为计算加速，不用作画面输出。如果需要将集成显卡用作显示输出的修改 `config.plist`的iGPU配置为：
 
 ```xml
 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
@@ -143,6 +143,8 @@
   <string>Intel UHD Graphics 630 (Desktop)</string>
 </dict>
 ```
+
+![IGPU加速](./docs/IGPU accelerate.png)
 
 ## USB定制方案
 
