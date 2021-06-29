@@ -8,7 +8,7 @@
 - 主板：Gigabyte Z490I AORUS ULTRA
 - 内存：十铨火神DDR4 3200 16GB * 2
 - 硬盘：WD_BLACK™ SN750 1TB NVMe™ SSD
-- 显卡：Gigabyte RX5700XT AORUS/GAMING OC 8G
+- 显卡：Gigabyte RX5700XT AORUS/GAMING OC 8G 和 蓝宝石 5700XT Pro OC
 - 网卡：BCM94360CS2 NGFF + 内置天线 2根
 
 ## 功能
