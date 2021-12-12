@@ -2,6 +2,9 @@
 
 在基于技嘉Z490I AORUS ULTRA、Intel 10700k的平台上安装 MacOS Catalina 10.15.6
 
+- `EFI` 目录为较新的 OC 0.7.6+，支持 Mac OS 12.0.0+
+- `EFI_` 目录为旧版本的 OC，支持Mac OS 10.15.7
+
 ## 整机硬件
 
 - 处理器：Intel 10700k
