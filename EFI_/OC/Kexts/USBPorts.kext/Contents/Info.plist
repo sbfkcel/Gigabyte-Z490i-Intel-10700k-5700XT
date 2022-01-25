@@ -65,19 +65,6 @@
 						AgAAAA==
 						</data>
 					</dict>
-					<key>HS05</key>
-					<dict>
-						<key>Comment</key>
-						<string>-</string>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS05</string>
-						<key>port</key>
-						<data>
-						BQAAAA==
-						</data>
-					</dict>
 					<key>HS07</key>
 					<dict>
 						<key>Comment</key>
@@ -107,7 +94,7 @@
 					<key>HS10</key>
 					<dict>
 						<key>Comment</key>
-						<string>-</string>
+						<string>机箱USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -122,7 +109,7 @@
 						<key>Comment</key>
 						<string>-</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS11</string>
 						<key>port</key>
@@ -135,7 +122,7 @@
 						<key>Comment</key>
 						<string>-</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS12</string>
 						<key>port</key>
@@ -143,17 +130,30 @@
 						DAAAAA==
 						</data>
 					</dict>
-					<key>SS01</key>
+					<key>HS13</key>
 					<dict>
 						<key>Comment</key>
 						<string>-</string>
 						<key>UsbConnector</key>
-						<integer>10</integer>
+						<integer>255</integer>
 						<key>name</key>
-						<string>SS01</string>
+						<string>HS13</string>
 						<key>port</key>
 						<data>
-						EQAAAA==
+						DQAAAA==
+						</data>
+					</dict>
+					<key>HS14</key>
+					<dict>
+						<key>Comment</key>
+						<string>-</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS14</string>
+						<key>port</key>
+						<data>
+						DgAAAA==
 						</data>
 					</dict>
 					<key>SS03</key>
@@ -185,7 +185,7 @@
 					<key>SS05</key>
 					<dict>
 						<key>Comment</key>
-						<string>-</string>
+						<string>红色USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -198,7 +198,7 @@
 					<key>SS06</key>
 					<dict>
 						<key>Comment</key>
-						<string>-</string>
+						<string>TypeC</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>name</key>
@@ -237,7 +237,7 @@
 					<key>SS10</key>
 					<dict>
 						<key>Comment</key>
-						<string>-</string>
+						<string>机箱USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
