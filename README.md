@@ -1,8 +1,8 @@
 # Gigabyte-Z490i-Intel-10700k-5700XT
 
-在基于技嘉Z490I AORUS ULTRA、Intel 10700k的平台上安装 MacOS Catalina 10.15.6
+在基于技嘉Z490I AORUS ULTRA、Intel 10700k的平台上安装 MacOS Ventura 13.0.0
 
-- `EFI` 目录为较新的 OC 0.7.6+，支持 Mac OS 12.0.0+
+- `EFI` 目录为较新的 OC 0.8.6+，支持 Mac OS 13.0.0+
 - `EFI_` 目录为旧版本的 OC，支持Mac OS 10.15.7
 
 ## 整机硬件
@@ -47,6 +47,17 @@
   - 在EFI分区中，找到U盘并点击『挂载分区』--『打开分区』
   - 将本项目中 **EFI** 目录拷贝至新打开的 **EFI分区中**
   - 至此安装U盘制作完成
+
+## 配置文件说明
+
+以下文件根据实际情况自行多复制一份儿修改文件名为 `config.plist`。
+
+- `config_iMac20,2_集显用作加速.plist`
+  - CPU集成显卡用于计算加速，独立显卡用于显示输出，但 `Netflix` 相关服务不可用，例如：苹果音乐应用
+- `config_iMac20,2_集显用作显示.plist`
+  - CPU集成显卡用于显示输出，但 `Netflix` 相关服务不可用，例如：苹果音乐应用
+- `config_iMacPro1,1_使用AMD显卡显示（集显不加速）.plist`
+  - 独立显卡用于显示输出，没有集成显卡计算加速，但 `Netflix` 相关服务可用
 
 ## BIOS设置
 

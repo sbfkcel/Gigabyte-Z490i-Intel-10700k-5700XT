@@ -14,6 +14,9 @@
 /* Class = "NSTextFieldCell"; title = "TimerResolution"; ObjectID = "3Ql-TM-Oiv"; */
 "3Ql-TM-Oiv.title" = "TimerResolution";
 
+/* Class = "NSButtonCell"; title = "DisconnectHda"; ObjectID = "3Sg-0T-21K"; */
+"3Sg-0T-21K.title" = "DisconnectHda";
+
 /* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "4ew-tO-Ops"; */
 "4ew-tO-Ops.headerCell.title" = "注释\nComment";
 
@@ -38,6 +41,9 @@
 /* Class = "NSTextFieldCell"; title = "MinDate"; ObjectID = "9fO-yG-VWd"; */
 "9fO-yG-VWd.title" = "MinDate";
 
+/* Class = "NSTextFieldCell"; title = "MinimumAudibleGain"; ObjectID = "9gM-JU-65M"; */
+"9gM-JU-65M.title" = "最小可听增益\nMinimumAudibleGain";
+
 /* Class = "NSTextFieldCell"; title = "KeyInitialDelay"; ObjectID = "Bng-Xc-8Qm"; */
 "Bng-Xc-8Qm.title" = "KeyInitialDelay";
 
@@ -50,14 +56,14 @@
 /* Class = "NSButtonCell"; title = "PointerSupport"; ObjectID = "Elq-pL-QTD"; */
 "Elq-pL-QTD.title" = "PointerSupport";
 
-/* Class = "NSTextFieldCell"; title = "VolumeAmplifier"; ObjectID = "En7-ww-Uj5"; */
-"En7-ww-Uj5.title" = "VolumeAmplifier";
-
 /* Class = "NSTextFieldCell"; title = "KeyForgetThreshold"; ObjectID = "ErN-ks-EzO"; */
 "ErN-ks-EzO.title" = "KeyForgetThreshold";
 
 /* Class = "NSTabViewItem"; label = "APFS"; ObjectID = "F1Q-I5-6w7"; */
 "F1Q-I5-6w7.label" = "嵌入式APFS";
+
+/* Class = "NSTextFieldCell"; title = "UIScale"; ObjectID = "GlL-l6-Vr1"; */
+"GlL-l6-Vr1.title" = "UIScale";
 
 /* Class = "NSMenuItem"; title = "BIG SUR"; ObjectID = "HqP-Ib-Lhy"; */
 "HqP-Ib-Lhy.title" = "BigSur 11.x";
@@ -67,6 +73,9 @@
 
 /* Class = "NSTextFieldCell"; title = "KeySubsequentDelay"; ObjectID = "JWy-Kv-Tq6"; */
 "JWy-Kv-Tq6.title" = "KeySubsequentDelay";
+
+/* Class = "NSTableColumn"; headerCell.title = "LoadEarly"; ObjectID = "Jlh-ZM-CXj"; */
+"Jlh-ZM-CXj.headerCell.title" = "提前加载\nLoadEarly";
 
 /* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "Kuw-7J-hNc"; */
 "Kuw-7J-hNc.headerCell.title" = "参数\nArguments";
@@ -125,6 +134,9 @@
 /* Class = "NSTextFieldCell"; title = "ResizeGpuBars"; ObjectID = "ate-vk-6K8"; */
 "ate-vk-6K8.title" = "ResizeGpuBars";
 
+/* Class = "NSTextFieldCell"; title = "MinimumAssistGain"; ObjectID = "cGr-Vg-96c"; */
+"cGr-Vg-96c.title" = "最小辅助增益\nMinimumAssistGain";
+
 /* Class = "NSButtonCell"; title = "ResetTrafficClass"; ObjectID = "cgf-ad-vIe"; */
 "cgf-ad-vIe.title" = "ResetTrafficClass";
 
@@ -133,6 +145,9 @@
 
 /* Class = "NSMenuItem"; title = "HIGH SIERRA"; ObjectID = "ckI-Ly-WbZ"; */
 "ckI-Ly-WbZ.title" = "HighSierra 10.13.x";
+
+/* Class = "NSTextFieldCell"; title = "PointerPollMax"; ObjectID = "dh5-Pc-bAh"; */
+"dh5-Pc-bAh.title" = "PointerPollMax";
 
 /* Class = "NSTableColumn"; headerCell.title = "Path"; ObjectID = "dim-bs-Whu"; */
 "dim-bs-Whu.headerCell.title" = "路径\nPath";
@@ -143,11 +158,11 @@
 /* Class = "NSButtonCell"; title = "HideVerbose"; ObjectID = "egr-8J-RIS"; */
 "egr-8J-RIS.title" = "HideVerbose";
 
-/* Class = "NSTextFieldCell"; title = "MinimumVolume"; ObjectID = "ehu-K3-gbY"; */
-"ehu-K3-gbY.title" = "MinimumVolume";
-
 /* Class = "NSMenuItem"; title = "DEFAULT"; ObjectID = "fZq-zJ-tYW"; */
 "fZq-zJ-tYW.title" = "默认";
+
+/* Class = "NSTextFieldCell"; title = "MaximumGain"; ObjectID = "g21-Ne-WFK"; */
+"g21-Ne-WFK.title" = "最大增益\nMaximumGain";
 
 /* Class = "NSTabViewItem"; label = "Output"; ObjectID = "gJG-UT-7D3"; */
 "gJG-UT-7D3.label" = "显示输出";
@@ -164,9 +179,6 @@
 /* Class = "NSButtonCell"; title = "Connect Drivers"; ObjectID = "kBk-75-acl"; */
 "kBk-75-acl.title" = "连接驱动程序";
 
-/* Class = "NSTextFieldCell"; title = "AudioOut"; ObjectID = "kM6-tO-pns"; */
-"kM6-tO-pns.title" = "AudioOut";
-
 /* Class = "NSTableColumn"; headerCell.title = "Address"; ObjectID = "ldi-uY-9wO"; */
 "ldi-uY-9wO.headerCell.title" = "地址\nAddress";
 
@@ -175,6 +187,15 @@
 
 /* Class = "NSButtonCell"; title = "AudioSupport"; ObjectID = "oT1-Q2-rhc"; */
 "oT1-Q2-rhc.title" = "AudioSupport";
+
+/* Class = "NSTextFieldCell"; title = "PointerPollMask"; ObjectID = "ps9-16-tfw"; */
+"ps9-16-tfw.title" = "PointerPollMask";
+
+/* Class = "NSTextFieldCell"; title = "PointerPollMin"; ObjectID = "q7Q-3f-fHL"; */
+"q7Q-3f-fHL.title" = "PointerPollMin";
+
+/* Class = "NSTextFieldCell"; title = "AudioOutMask"; ObjectID = "r2Q-7P-fO6"; */
+"r2Q-7P-fO6.title" = "AudioOutMask";
 
 /* Class = "NSTabViewItem"; label = "Input"; ObjectID = "tiX-oG-c7h"; */
 "tiX-oG-c7h.label" = "Apple快捷键相关";
