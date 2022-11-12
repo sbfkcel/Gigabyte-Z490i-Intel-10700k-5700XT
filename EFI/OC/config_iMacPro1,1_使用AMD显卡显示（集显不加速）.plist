@@ -378,9 +378,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>USBPorts_iMac20.kext</string>
 				<key>Comment</key>
-				<string>定制的USB</string>
+				<string>定制的USB，适用于iMac20,2</string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBPorts_iMacPro1.kext</string>
+				<key>Comment</key>
+				<string>定制的USB，适用于iMacPro1,1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
